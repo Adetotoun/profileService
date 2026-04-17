@@ -3,9 +3,9 @@ const { createProfile, singleProfile, allProfiles, deleteProfile } = require('..
 const router = express.Router();
 
 router.post('/profiles', createProfile);
-router.get('/profileById/:id', singleProfile);
-router.get('/allProfiles',allProfiles);
-router.delete('/deleteProfiles/:id', deleteProfile);
+router.get('/profiles/:id', singleProfile);
+router.get('/profiles',allProfiles);
+router.delete('/profiles/:id', deleteProfile);
 
 
 
