@@ -58,9 +58,9 @@ https://profile-service-three.vercel.app/api/profiles
 - set up environment variables
   -- DB_URI = your-MongoDB-Atlas-connection-string
   -- PORT = 3000
--start the server
+- start the server
   -- node index.js
--test the API
+- test the API
   -- http://localhost:3000/api/profiles
 
 
