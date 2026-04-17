@@ -46,16 +46,22 @@ https://profile-service-three.vercel.app/api/profiles
 * Select the country with the **highest probability** from the Nationalize API response.
 
 
-### Error Codes
-
-| Status Code | Meaning                                |
-| ----------- | -------------------------------------- |
-| 400         | Missing or empty name                  |
-| 422         | Invalid input type                     |
-| 404         | Profile not found                      |
-| 502         | External API returned invalid response |
-| 500         | Internal server error                  |
-
+### To Run The Project Locally
+- Clone the project
+- install dependencies
+  -- Express
+  -- Mongoose
+  -- Axios
+  -- Dotenv
+  -- Cors
+  -- UUID
+- set up environment variables
+  -- DB_URI = your-MongoDB-Atlas-connection-string
+  -- PORT = 3000
+-start the server
+  -- node index.js
+-test the API
+  -- http://localhost:3000/api/profiles
 
 
 
