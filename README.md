@@ -3,10 +3,10 @@
 A backend service that accepts a name, enriches it using multiple external APIs, processes the data, and stores it in a MongoDB database. The API exposes endpoints to create, retrieve, filter, and delete profiles.
 
 **Base URL**
-https://genderize-api-integration.vercel.app
+https://profile-service-three.vercel.app
 
 **Example Endpoint**
-https://genderize-api-integration.vercel.app/api/profiles?name=John
+https://profile-service-three.vercel.app/api/profiles
 
 
 ## Features
