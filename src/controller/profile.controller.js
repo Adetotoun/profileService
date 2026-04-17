@@ -1,9 +1,12 @@
 const Profile = require('../models/profile.model');
 const axios = require('axios');
 const {getAgeGroup, getTopCountry} = require('../utility/classify');
-const {v7: uuidv7} = require('uuid'); //destructuring with renaming
+ 
 
 const createProfile = async (req, res) => {
+
+  const {v7: uuidv7} = await import ('uuid'); //destructuring with renaming
+
   try {
     const { name } = req.body;
 
